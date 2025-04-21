@@ -2,6 +2,8 @@
 
 This is Mern Stack Project using Reactjs(Vite.js), Nodejs, ExpressJs , MongoDB, Cloudnary
 
+Link : https://tidu-spotify.vercel.app/
+
 ## Outputs
 
 ![img1](screenshots/home.png)
