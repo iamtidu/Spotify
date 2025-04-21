@@ -30,5 +30,5 @@ app.get('/',(req,res)=>{
 })
 
 app.listen(port,()=>{
-    console.log(`Server Strted on ${port}`)
+    console.log(`Good Morning`)
 })

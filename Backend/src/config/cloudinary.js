@@ -7,7 +7,7 @@ const connectCloudinary = async ()=>{
         api_secret: process.env.CLOUDINARY_SECRET_KEY
         
     })
-    console.log("col connected")
+    // console.log("col connected")
 }
 
 export default connectCloudinary;

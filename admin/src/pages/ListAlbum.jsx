@@ -13,7 +13,7 @@ const ListAlbum = () => {
             const response = await axios.get(`${url}/api/album/list`);
             if (response.data.success) {
                 setData(response.data.albums)
-                console.log(response.data.albums)
+                // console.log(response.data.albums)
             }
 
         } catch (error) {
