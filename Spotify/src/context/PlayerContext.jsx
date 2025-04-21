@@ -12,7 +12,7 @@ const PlayerContextProvider = (props) => {
     const seekBar = useRef()
 
     // const url = 'http://localhost:4000';
-    const url = 'https://spotify-six-wine.vercel.app';
+    const url = import.meta.env.VITE_BACKEND;
 
     const [songsData, setSongsData] = useState([]);
     const [albumsData, setAlbumData] = useState([]);
